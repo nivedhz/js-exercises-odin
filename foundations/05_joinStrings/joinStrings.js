@@ -10,13 +10,13 @@
 // Add your code right below, good luck!
 const firstName = "Carlos";
 const lastName = "Stevenson";
-const birthYear = 1947;
-const thisYear = 1965;
+const birthYear = 1947; //The year was unnecessarily converted to string via double quotes
+const thisYear = 1965;//The year was unnecessarily converted to string via double quotes
 const fullName = `${firstName} ${lastName}`
-const age = thisYear - birthYear
+const age = thisYear - birthYear // The age was also unnecessarily type converted to strings via back ticks
 
 greeting = `Hello! My name is ${fullName} and I am ${age} years old.`
-console.log(greeting)
+console.log(greeting) // Forgot this the first time XD
 
 
 
